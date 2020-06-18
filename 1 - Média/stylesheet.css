@@ -1,0 +1,35 @@
+.Combo1{
+  position: absolute;
+  margin-top: 30px;
+ }
+
+.Combo2{
+    position: absolute;
+    margin-top: 60px;
+}
+
+.Ancap{
+    Position: absolute;
+    margin-bottom: 0px;
+    top: 90%;   
+    width: 99%;
+    left: 0;
+    color: black;
+    border-color: black;
+    border-width: medium;
+    border-style: groove;
+    background-color: yellow;
+    z-index: 2;
+}
+.InputsDeMedia{
+    position: absolute;
+    top: 100px;            
+}
+#btnSomar{
+    Position: Absolute;
+    top: 8px;
+    left: 190px;
+}
+.InputMedia{
+    margin-bottom: 10px;
+}
