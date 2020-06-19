@@ -1,23 +1,14 @@
-for(i=0; i<2; i++)
-    document.onload = adcElemento("InputDeMedia");
 var BtnAcrescentar = document.getElementById("AcrescentarInputMedia");
 BtnAcrescentar.setAttribute('onclick','adcElemento("InputDeMedia")');   
-function adcElemento (NomeDiv) { 
-  QtdeBtnAcrescentar = 1;
-  do{
-    var selDiv = document.getElementById(NomeDiv+String(QtdeBtnAcrescentar));
-    QtdeBtnAcrescentar++;
-    } while(selDiv != null);
-  QtdeBtnAcrescentar--;
+function adcElemento (NomeInput) { 
+  QtdeBtnAcrescentar = document.querySelectorAll(".DivMedia").length;
   console.log(QtdeBtnAcrescentar);
-  var InputNovo = document.createElement("div"); 
-  var conteudoNovo = document.createElement("input"); 
-  InputNovo.appendChild(conteudoNovo); //adiciona o nó de texto à nova 
-  InputNovo.setAttribute('Class', 'InputMedia');
-  InputNovo.setAttribute('id', NomeDiv.toString()+QtdeBtnAcrescentar);
+  var conteudoNovo = document.createElement("div"); 
+  var InputNovo = document.createElement("input"); 
+  InputNovo.setAttribute('Class','InputMedia');
+  conteudoNovo.appendChild(InputNovo); //adiciona o nó de texto à nova 
+  conteudoNovo.setAttribute('Class', 'DivMedia');
+  conteudoNovo.setAttribute('id', NomeInput.toString()+(QtdeBtnAcrescentar+1));
   var divAtual = document.getElementById("InputsDeMedia");  
-  divAtual.appendChild(InputNovo);
+  divAtual.appendChild(conteudoNovo);
 }
-
-// adiciona o novo elemento criado e seu conteúdo ao DOM 
-//  document.body.insertBefore(divNova, divAtual.nextSibling);

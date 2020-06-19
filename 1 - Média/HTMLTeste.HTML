@@ -7,27 +7,14 @@
   <BODY>
     <h1 class = "Ancap" id = "Label1">assassssssaasaasasasssssssas</h1>
     <div class = "Combos" id = "InputsDeMedia">
+        <div class="DivMedia" id="InputDeMedia1"><input class = "InputMedia"></div>
+        <div class="DivMedia" id="InputDeMedia2"><input class = "InputMedia"></div>
     </div>
     <BUTTON onclick = "CalcularMedia()" id = "btnSomar">Calcular média</BUTTON>
       <BUTTON id = "AcrescentarInputMedia">+</BUTTON>
       <BUTTON id = "RemoverInputMedia">-</BUTTON>
-    <Script>
-      document.getElementById('Label1').innerHTML = "Jean Paulo Ath";
-      document.getElementById('Label1').class     = "Ancap";
-//      label2 = document.createElement(h1);
-//      label2.innerHTML = "sasadhsadh";
-      
-      function CalcularMedia(){
-        Imp1 = document.getElementById("Imp1");
-        Imp2 = document.getElementById("Imp2");
-        setTimeout(function (){soma()},1000);
-      }
-      function soma(){
-        alert("Soma:"+ (parseInt(Imp1.value) + parseInt(Imp2.value)));
-        setTimeout(function (){soma()},3000);
-      } 
-    </Script>
     <Script src ="BotãoAcrescentar.js"></script>  
     <Script src ="BotãoRemover.js"></script>
+    <Script src ="CalcularMédia.js"></script>
   </BODY>
 </HTML>
