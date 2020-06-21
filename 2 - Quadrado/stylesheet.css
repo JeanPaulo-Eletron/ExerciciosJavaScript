@@ -1,0 +1,61 @@
+input#Input1{
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+}
+input#Input2{
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+}
+input#Input3{
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+}
+input#Input4{
+    position: absolute;
+    z-index: 0;
+    top: 110px;
+}
+input#Input5{
+    position: absolute;
+    z-index: 0;
+    top: 140px;
+}
+button#BtnCalcular{
+    position: absolute;
+    z-index: 0;
+    top: 180px;
+    left: 60px;
+}
+h1#Output1{
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: 100px;
+}
+h1#Output2{
+    position: absolute;
+    z-index: 0;
+    top: 50px;
+    left: 100px;
+}
+h1#Output3{
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+    left: 100px;
+}
+h1#Output4{
+    position: absolute;
+    z-index: 0;
+    top: 110px;
+    left: 100px;
+}
+h1#Output5{
+    position: absolute;
+    z-index: 0;
+    top: 140px;
+    left: 100px;
+}
