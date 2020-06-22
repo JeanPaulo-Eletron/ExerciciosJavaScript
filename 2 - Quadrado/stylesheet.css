@@ -29,33 +29,33 @@ button#BtnCalcular{
     top: 180px;
     left: 60px;
 }
-h1#Output1{
+p#Output1{
     position: absolute;
-    z-index: 0;
-    top: 20px;
-    left: 100px;
+    z-index: 1;
+    top: 3px;
+    left: 195px;
 }
-h1#Output2{
+p#Output2{
     position: absolute;
     z-index: 0;
-    top: 50px;
-    left: 100px;
+    top: 33px;
+    left: 195px;
 }
-h1#Output3{
+p#Output3{
     position: absolute;
     z-index: 0;
-    top: 80px;
-    left: 100px;
+    top: 65px;
+    left: 195px;
 }
-h1#Output4{
+p#Output4{
     position: absolute;
     z-index: 0;
-    top: 110px;
-    left: 100px;
+    top: 95px;
+    left: 195px;
 }
-h1#Output5{
+p#Output5{
     position: absolute;
     z-index: 0;
-    top: 140px;
-    left: 100px;
+    top: 124px;
+    left: 195px;
 }
